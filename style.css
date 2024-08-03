@@ -1,0 +1,113 @@
+body{
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+header h1{
+    display: inline;
+    font-size: 30px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+
+}
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.hero{
+    background-color: aqua;
+    text-align: center;
+    padding: 50px 0;
+}
+.hero h2{
+    font-size: 36px;
+}
+.hero p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.cta{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3 ease;
+}
+.cta:hover{
+    background-color: azure;
+    color: black;
+}
+.products{
+    margin: 50px;
+    background-color: white;
+    text-align: center;
+}
+.product-grid{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: minmax(200px,1fr);
+    gap: 20px;
+}
+.product-card{
+    background-color: antiquewhite;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+.product-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px #333;
+}
+.product-card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+.product-card h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.product-card p{
+    font-size: 15px;
+    color: black;
+}
+.btn{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3 ease;
+}
+btn:hover{
+    background-color: white;
+    color: black;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding:20px 0;
+}
